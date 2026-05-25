@@ -6,7 +6,12 @@ for number in numbers:
     if number >= 50:
         sum += number
 
-print("The count is ", count)
+print(f"The count is {sum}")
+
+print("\\")
 
 for i in range(len(numbers)):
-    print(numbers[i])
+    if (i % 2 != 0):
+        print(numbers[i])
+
+print("\\")
